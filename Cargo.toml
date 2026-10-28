@@ -1,0 +1,11 @@
+[package]
+name = "scip-find-unused-types"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4.6", features = ["derive"] }
+scip = "0.10.0"
+# must match the protobuf dep in the scip crate
+protobuf = "=3.7.2"
